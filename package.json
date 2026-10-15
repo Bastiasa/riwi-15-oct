@@ -1,0 +1,20 @@
+{
+    "name": "nivel-bajo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/main.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "start": "npm run build && node ."
+    },
+    "author": "Luis Bastidas",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^26.6.5",
+        "typescript": "^7.0.2"
+    },
+    "dependencies": {
+        "inquirer": "^14.2.3"
+    }
+}
